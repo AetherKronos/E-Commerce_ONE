@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>E-Commerce</title>
+        <link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <section id="header">
+            <a href="#"><img src=img/logo.png class="logo" alt="logo"></a>
+            <div>
+                <ul id="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Tienda</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">Acerca de</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                    <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                    <li id="lgin"><a class="active" href="login.html"><i class="fa fa-user-circle"></i></a></li>
+                    <a href="#" id="close"><i class="far fa-times"></i></a>
+                </ul>
+            </div>
+            <div id="mobile">
+                <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+                <i id="bar" class="fas fa-outdent"></i>
+            </div>
+        </section>
+
+        <section id="login">
+            <div id="wrapper">
+                <form action="admin_prod.html">
+                    <h1>LOGIN</h1>
+                    <div class="input-box">
+                        <input type="text" placeholder="Usuario" required>
+                        <i class='bx bxs-user'></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" placeholder="Contraseña" required>
+                        <i class='bx bxs-lock-alt'></i>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox"> Recuerdame</label>
+                        <a href="#">¿Olvidaste tu Contraseña?</a>
+                    </div>
+
+                    <button type="submit" class="btn" href="admin_prod.html">Login</button>
+                    <div class="register-link">
+                        <p>¿No tienes una cuenta? <a href="#">Regístrate</a></p>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
